@@ -5,16 +5,13 @@
 # Autor: Bryant
 #
 # ------------------------------------------------------------------------- #
-# Aqui você deve utilizar uma descrição mais detalhada sobre o seu programa,
-# explicando a forma de utilizar.
-#
 # Exemplos:
 #     $ ./github-extractor.sh -q "Linux" -p 2
 #       Pesquisa no site do GitHub o termo Linux na página 2
 # ------------------------------------------------------------------------- #
 # Histórico:
 #
-# v0.1 26/05/2019, Autor da mudança:
+# v0.1 26/05/2019, Bryant:
 #     - Iniciado o programa que utiliza o Lynx como navegador via terminal,
 #       fazendo pesquisas no site do github e extraindo os repositórios
 # ------------------------------------------------------------------------- #
@@ -39,7 +36,7 @@ SEARCH=""
 PAGE="1"
 
 VERDE="\033[32;1m"
-VERMELHO="\033[33;1m"
+AMARELO="\033[33;1m"
 CIANO="\033[36;1m"
 
 # ------------------------------------------------------------------------- #
